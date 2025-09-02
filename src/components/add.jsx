@@ -1,7 +1,7 @@
 
 const Add = () => {
   return (
-    <div>Something awesome</div>
+    <div>Something awesome man</div>
   )
 }
 

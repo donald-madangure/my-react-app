@@ -1,11 +1,17 @@
-import Greet from "./components/greeting";
-import Add from "./components/add";
+import Greet from "./components/Greeting";
+import Add from "./components/Add";
+import Header from "./components/header";
+import Main from "./components/Main";
+import Footer from "./components/Footer";
 
 const App = () => {
-  return <section> 
-    <Greet/> 
-    <Add/>
-    </section>;
+  return (
+    <div>
+      <Header /> 
+      <Main/> 
+      <Footer/>  
+    </div>
+  )
 } 
 
 export default App;
